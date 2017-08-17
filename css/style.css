@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Muli:700|Ubuntu');
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 50px;
+}
+
+body {
+  background-color: snow;
+}
+
+header {
+  width: 100%;
+  border-bottom: 2px solid #222;
+}
+
+.nav {
+  width: 100%;
+  padding: 20px;
+}
+
+.nav a {
+  color: black;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  opacity: .5;
+}
+
+.logo {
+  float: left;
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.new {
+  float: right;
+  font-size: 2.25em;
+}
+
+main {
+  width: 100%;
+  min-height: 70vh;
+  padding: 30px 0px;
+}
+
+main ul {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+main ul li {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.task {
+  padding: 15px 10px 15px 20px;
+  border-left: 2px solid #222;
+  font-size: 15px;
+  font-family: 'Cairo', sans-serif;
+  font-style: italic;
+  color: #666;
+}
+
+.task .title {
+  font-size: 22px;
+  font-variant: small-caps;
+  font-stretch: expanded;
+  font-style: normal;
+  font-family: 'Muli', sans-serif;
+  color: #333;
+}
+
+.deadline {
+  float: right;
+  margin-top: 8px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: #B40404;
+}
+
+.delete-btn {
+  float: right;
+  margin-top: 8px;
+  text-align: center;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #222;
+  opacity: .8;
+}
+
+.form-title {
+  text-align: center;
+  padding: 30px 0px 20px;
+  font-size: 32px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #222;
+  text-decoration: underline;
+}
+
+input[type=submit] {
+  float: left;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer {
+  width: 100%;
+  padding: 40px 0px;
+  text-align: center;
+  border-top: 2px solid #222;
+}
+
+footer p {
+  font-size: 1.5em;
+  font-family: 'Ubuntu', sans-serif;
+  color: #222;
+}
+
+@media screen and (max-width: 765px) {
+  .form-title {
+    text-align: left;
+  }
+  footer p {
+    font-size: 1.25em;
+  }
+}
